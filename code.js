@@ -1,11 +1,11 @@
 if(window.snake)snake.count_inputs = function() {
   const a = new Image();
   a.src = 'https://www.google.com/logos/fnbx/snake_arcade/keys.svg';
-  a.width = a.height = 47;
-  a.style = 'position:relative;left:250px;top:11.5px;';
+  a.width = a.height = 25;
+  a.style = 'position:relative;left:460px;top:11.5px;';
 
   window.________b = document.createElement('div');
-  ________b.style = 'position:relative;left:300px;top:-24px;font-size:20px;font-family:Roboto,Arial,sans-serif;'
+  ________b.style = 'width:25px;position:relative;left:490px;top:-24px;font-size:20px;font-family:Roboto,Arial,sans-serif;'
 
   document.getElementsByClassName('sEOCsb')[0].appendChild(a);
   document.getElementsByClassName('sEOCsb')[0].appendChild(________b);
