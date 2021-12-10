@@ -18,7 +18,7 @@ if(window.snake)snake.count_inputs = function() {
     req.open('GET', script.src);
     req.onload = function() {
       const code = this.responseText;
-      if(code.indexOf('#A2') === -1)return;
+      if(code.indexOf('trophy') === -1)return;
 
       eval(
         code.match(
