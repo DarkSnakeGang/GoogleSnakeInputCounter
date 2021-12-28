@@ -6,5 +6,5 @@ Counter for total number of plays in a session or overall<br/>
 Click the cog to change which counter is shown.<br/>
 
 contributors:<br/>
-Fishes
+Fishes<br/>
 Llama
