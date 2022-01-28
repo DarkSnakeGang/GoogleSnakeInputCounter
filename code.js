@@ -14,7 +14,7 @@ if(window.snake)snake.count_inputs = function() {
 
       eval(
         code.match(
-          /[a-zA-Z0-9_$]{1,7}\.prototype\.reset=function\(\){var a=this;[^]*?resetState\(\)}\)}/
+          /[a-zA-Z0-9_$]{1,7}\.prototype\.reset=function\(\){var a=this;[^]*?resetState\(\)}catch\(b\){}}\)}/
         )[0].replace(
           '{',
           `{
