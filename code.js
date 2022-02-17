@@ -62,6 +62,7 @@ function setuphtml() {
   a.style = 'position:relative;left:460px;top:11.5px;';
 
   window.________b = document.createElement('div');
+  ________b.class = 'counter-num'
   ________b.style = 'width:25px;position:relative;left:490px;top:-24px;font-size:20px;font-family:Roboto,Arial,sans-serif;'
 
   document.getElementsByClassName('sEOCsb')[0].appendChild(a);
